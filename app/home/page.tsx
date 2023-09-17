@@ -14,10 +14,10 @@ export default function Home(): React.ReactNode {
             style={{ margin: "50px", display: "column" }}
         >
             <div className="rounded-3xl relative overflow-hidden py-24 sm:py-32 ">
-                <img
+                <Image
                     src="/images/oursummit_0.jpg"
                     alt="Grimpeurs de l'association OURSUMMIT"
-                    className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center darken"
+                    className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
                 />
                 <div
                     className="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
