@@ -186,5 +186,5 @@ body {
 }
 
 .darken {
-    filter: brightness(48%); /* Diminue la luminosité de l'image à 50% */
+    filter: brightness(35%); /* Diminue la luminosité de l'image à 50% */
 }
