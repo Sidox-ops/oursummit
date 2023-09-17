@@ -1,0 +1,10 @@
+/* styles.module.css */
+
+/* Sélecteur de base pour le conteneur du carrousel Embla */
+.embla__container {
+    transition-property: transform;
+    transition-timing-function: ease-in-out;
+}
+
+/* Si vous voulez ajouter d'autres styles spécifiques ou ajustements, 
+   ajoutez-les ci-dessous dans ce fichier. */

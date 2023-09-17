@@ -1,4 +1,13 @@
+"use client";
+import React, { useState, useEffect } from "react";
+
 export default function Custom404(): React.ReactNode {
+
+    //redirect to home page
+    useEffect(() => {
+        window.location.href = "/home";
+    }, []);
+
     return (
         <div
             style={{
