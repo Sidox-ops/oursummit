@@ -9,8 +9,7 @@ const stats = [
 export default function Home(): React.ReactNode {
     return (
         <div
-            className="space-y-20"
-            // style={{ margin: "200px 50px 50px 50px", display: "block" }}
+            className="space-y-6 sm:space-y-12 lg:space-y-20 mx-4 sm:mx-12 lg:mx-24"
             style={{ margin: "50px", display: "column" }}
         >
             <div className="rounded-3xl relative overflow-hidden py-24 sm:py-32 ">
@@ -88,8 +87,8 @@ export default function Home(): React.ReactNode {
                     </div>
                 </div>
             </div>
-            <div className="flex">
-                <div>
+            <div className="flex flex-col sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6">
+                <div className="flex-shrink-0 w-full sm:w-1/2">
                     <Image
                         src="/images/oursummit_1.jpg"
                         alt="Description de l'image"
@@ -98,7 +97,7 @@ export default function Home(): React.ReactNode {
                         height={350}
                     />
                 </div>
-                <div className="w-1/2 p-12">
+                <div className="w-full sm:w-1/2 p-4 sm:p-12">
                     <h3 className="text-2xl font-semibold text-gray-800 rounded font-sans">
                         La Mission de OURSUMMIT
                     </h3>
@@ -114,8 +113,8 @@ export default function Home(): React.ReactNode {
                     </p>
                 </div>
             </div>
-            <div className="flex justify-end">
-                <div className="w-1/2 p-12">
+            <div className="flex flex-col-reverse sm:flex-row space-y-6 sm:space-y-0 sm:space-x-6">
+                <div className="w-full sm:w-1/2 p-4 sm:p-12">
                     <h3 className="text-2xl font-semibold text-gray-800 rounded font-sans">
                         La Magie de la Nature
                     </h3>
@@ -129,7 +128,7 @@ export default function Home(): React.ReactNode {
                         de respect envers la Terre qui nous accueille.
                     </p>
                 </div>
-                <div>
+                <div className="flex-shrink-0 w-full sm:w-1/2">
                     <Image
                         src="/images/oursummit_2.jpg"
                         alt="Description de l'image"
