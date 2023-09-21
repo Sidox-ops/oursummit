@@ -1,0 +1,54 @@
+/* navbar.module.css */
+
+.hidden {
+    display: none;
+}
+
+.menuToggleLabel {
+    display: block;
+    cursor: pointer;
+}
+
+.links {
+    display: none;
+    space-y: 2rem;
+    flex-direction: column;
+}
+
+.md\:links {
+    display: flex;
+    space-y: 0;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.menuToggle:checked + .menuToggleLabel + .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.menuContent {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.menuToggle:checked + .menuToggleLabel + .menuContent {
+    display: flex;
+}
+
+.menuToggleLabel {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import Navbar from "./components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,8 @@ export default function RootLayout({
         <html lang="en">
             <title>Oursummit</title>
             <body className={inter.className}>
-                <nav>
+                <Navbar />
+                {/* <nav>
                     <div className="logo">
                         <Image
                             src="/Oursummit_logo.svg"
@@ -39,7 +41,7 @@ export default function RootLayout({
                         </a>
                     </div>
                     <a className="link btn-100">Je m'inscris</a>
-                </nav>
+                </nav> */}
                 {children}
             </body>
         </html>

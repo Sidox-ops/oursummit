@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import useEmblaCarousel, { EmblaOptionsType } from "embla-carousel-react";
 import { PropsWithChildren } from "react";
 import styles from "./style.module.css";
@@ -63,7 +63,7 @@ export default function About(): React.ReactNode {
                     })}
                 </Carousel>
             </div>
-            <div className="lg:w-3/4 mx-auto my-16">
+            <div className="lg:w-3/4 mx-auto my-16 ml-4 mr-4">
                 <h1 className="text-4xl font-bold text-center">
                     Notre histoire
                 </h1>
@@ -74,7 +74,7 @@ export default function About(): React.ReactNode {
                     voluptatibus. Quisquam, voluptatibus. Quisquam,
                 </p>
             </div>
-            <div className="lg:w-3/4 mx-auto my-16">
+            <div className="lg:w-3/4 mx-auto my-16 ml-4 mr-4">
                 <h1 className="text-4xl font-bold text-center">Notre équipe</h1>
                 <p className="text-center">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
