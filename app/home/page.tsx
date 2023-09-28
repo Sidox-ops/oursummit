@@ -53,7 +53,7 @@ export default function Home(): React.ReactNode {
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-300">
                             Votre communauté dédiée à la randonée ! Fondée par
-                            Aché, un passionné des grands espaces et des
+                            Aché, une passionnée des grands espaces et des
                             sentiers, notre association s'engage à explorer et
                             valoriser les merveilles naturelles que notre monde
                             a à offrir. Que vous soyez un randonneur novice
