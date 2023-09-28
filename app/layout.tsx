@@ -8,6 +8,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
     title: "Oursummit",
     description: "Association de hiking",
+    icons: {
+        icon: "/favicon.ico",
+        apple: "/oursummit.jpg",
+    },
 };
 
 export default function RootLayout({
